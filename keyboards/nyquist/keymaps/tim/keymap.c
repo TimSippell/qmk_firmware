@@ -26,7 +26,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [_QWERTY] = KC_KEYMAP(
   //,----+----+----+----+----+----.    ,----+----+----+----+----+----.
-     TILD, 1  , 2  , 3  , 4  , 5  ,      6  , 7  , 8  , 9  , 0  ,EQL ,
+     GRV , 1  , 2  , 3  , 4  , 5  ,      6  , 7  , 8  , 9  , 0  ,EQL ,
   //|----+----+----+----+----+----|    |----+----+----+----+----+----|
      TAB , Q  , W  , E  , R  , T  ,      Y  , U  , I  , O  , P  ,MINS,
   //|----+----+----+----+----+----|    |----+----+----+----+----+----|
@@ -34,13 +34,13 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|----+----+----+----+----+----|    |----+----+----+----+----+----|
      LSFT, Z  , X  , C  , V  , B  ,      N  , M  ,COMM,DOT ,SLSH,RSFT,
   //|----+----+----+----+----+----|    |----+----+----+----+----+----|
-     LCTL,LALT, X1 , X2 ,SPC ,DEL ,     BSPC,ENT ,LEFT,DOWN, UP ,RGHT
+     LCTL,LALT, X1 , X2 ,DEL ,SPC ,     BSPC,ENT ,LEFT,DOWN, UP ,RGHT
   //`----+----+----+----+----+----'    `----+----+----+----+----+----'
   ),
 
   [_LOWER] = KC_KEYMAP(
   //,----+----+----+----+----+----.    ,----+----+----+----+----+----.
-     TILD,EXLM, AT ,HASH,DLR ,PERC,     CIRC,AMPR,ASTR,LPRN,RPRN,BSPC,
+     GRV ,EXLM, AT ,HASH,DLR ,PERC,     CIRC,AMPR,ASTR,LPRN,RPRN,BSPC,
   //|----+----+----+----+----+----|    |----+----+----+----+----+----|
          , 1  , 2  , 3  , 4  , 5  ,      6  , 7  , 8  , 9  , 0  ,    ,
   //|----+----+----+----+----+----|    |----+----+----+----+----+----|
@@ -54,13 +54,13 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [_RAISE] = KC_KEYMAP(
   //,----+----+----+----+----+----.    ,----+----+----+----+----+----.
-     TILD,EXLM, AT ,HASH,DLR ,PERC,     CIRC,AMPR,ASTR,LPRN,RPRN,BSPC,
+     GRV,EXLM, AT ,HASH,DLR ,PERC,     CIRC,AMPR,ASTR,LPRN,RPRN,BSPC,
   //|----+----+----+----+----+----|    |----+----+----+----+----+----|
          ,EXLM, AT ,HASH,DLR ,PERC,     CIRC,AMPR,ASTR,LPRN,RPRN,    ,
   //|----+----+----+----+----+----|    |----+----+----+----+----+----|
      DEL ,MPRV,MNXT,VOLU,PGUP,UNDS,     EQL ,HOME,    ,    ,    ,BSLS,
   //|----+----+----+----+----+----|    |----+----+----+----+----+----|
-     MUTE,MSTP,MPLY,VOLD,PGDN,MINS,     PLUS,END ,    ,    ,    ,    ,
+         ,MSTP,MPLY,VOLD,PGDN,MINS,     PLUS,END ,    ,    ,    ,    ,
   //|----+----+----+----+----+----|    |----+----+----+----+----+----|
          ,    ,    ,    ,    ,    ,         ,    ,    ,    ,    ,
   //`----+----+----+----+----+----'    `----+----+----+----+----+----'
